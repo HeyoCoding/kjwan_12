@@ -1,6 +1,6 @@
 footer p {
-    font-size: 12px;
-    color: #888;
+    font-size: 20px;
+    color: #ff1414;
     margin-top: 20px;
 }
 
@@ -32,18 +32,18 @@ body, html  {
     box-shadow: 0 4px 8px rgb(253, 253, 253);
 }
 .logo {
-    width: 200px;
+    width: 250px;
     margin-bottom: 0px;
 }
 .profile h1 {
     font-size: 18px;
-    color: #312121;
+    color: #ff0000;
     margin-bottom: 30px;
 }
 .links .link {
     display: block;
     text-decoration: none;
-    background-color: #a86e6e;
+    background-color: #df6363;
     color: #333;
     padding: 15px 0;
     margin: 10px 0;
@@ -52,6 +52,22 @@ body, html  {
     transition: all 0.2s ease;
 }
 .links .link:hover {
-    background-color: #f0f0f0;
+    background-color: #c52222;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
+.call-button {
+    display: block;
+    text-decoration: none;
+    background-color: #df6363;
+    color: #333;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+.call-button:hover {
+    background-color: #c52222;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
